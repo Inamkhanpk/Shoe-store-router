@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link,useParams} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const Header = () =>{
 
@@ -12,7 +12,7 @@ const Header = () =>{
    
 <div className="">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Shoe Store</a>
+  <a class="navbar-brand" href="!#">Shoe Store</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
