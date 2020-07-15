@@ -114,11 +114,11 @@ const Launch= ()=>{
       
       const classes = useStyles();
     return(
-        <div className="container ">
+      
   
 
 
-  <div className="  ">
+  
   <Grid container spacing={2}>
 {Object.entries(shoes).map(([slug, { name, img }]) => (
   <Grid key={slug}  item xs={6} md={4}>
@@ -133,7 +133,7 @@ const Launch= ()=>{
       <p>{name}</p>
       </Typography>
 
-      {/* <img src={img} alt={name}  className="images"/> */}
+    
       </CardContent>
 
       <CardActions>
@@ -145,9 +145,8 @@ const Launch= ()=>{
 </Grid>
 ))}
 </Grid>
-</div>
 
-</div>
+
     )
 }
 
