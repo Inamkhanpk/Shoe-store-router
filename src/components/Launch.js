@@ -122,7 +122,7 @@ const Launch= ()=>{
   <Grid container spacing={2}>
 {Object.entries(shoes).map(([slug, { name, img }]) => (
   <Grid key={slug}  item xs={6} md={4}>
-    <Card  className={classes.root}   className="m-1" >
+    <Card  className={classes.root}    >
     <CardMedia
         className={classes.media}
         image={img}

@@ -25,7 +25,7 @@ function LaunchShoe() {
       img:img1,
       price:100,
       color:"red",
-      size:[5,6,7,8,8.5]
+      
       
     },
     "2-shoe": {
@@ -111,7 +111,7 @@ function LaunchShoe() {
       return <h2>Not Found!</h2>;
     }
   
-    const { name, img,price,color ,size } = shoe;
+    const { name, img,price,color } = shoe;
   
     return (
       <Grid container >
