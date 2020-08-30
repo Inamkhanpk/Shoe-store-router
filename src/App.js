@@ -8,11 +8,12 @@ import {
 import './App.css';
 import NotFound from  './components/NotFound'
 import Launch from './components/Launch'
-import LaunchShoe from './components/LaunchShoe'
+//import LaunchShoe from './components/ProductDetail'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import About from './components/About'
+import ProductDetailPage from './components/ProductDetail'
 
 
 function App() {
@@ -24,10 +25,11 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' exact element={<Home/>}/>
-          <Route path='/home' exact element={<Launch/>} />
            <Route path="/about" exact element={<About/>}/>
-          <Route path="/home/:slug" exact element={<LaunchShoe />} />
-      
+           <Route path="/men" element={<Launch category="men" />} />
+          <Route path="/women" element={<Launch category="women" />} />
+          <Route path="/kids" element={<Launch category="kids" />} />
+          <Route path="/products/:slug" element={<ProductDetailPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer/>
