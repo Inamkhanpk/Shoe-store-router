@@ -41,4 +41,4 @@ jobs:
      
      
     - name: Deploying on surge 
-      run : surge ./build  shoe-store-inam.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run : surge ./build  shoe-store-router-inam.surge.sh --token ${{ secrets.SURGE_TOKEN }}
